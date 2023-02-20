@@ -37,7 +37,7 @@ export default e => {
     };
   e.waitUntil(
     (async () => {
-      const u = `${baseUrl}assets/homespace2.glb`;
+      const u = `${baseUrl}assets/homespace.glb`;
       const homespace = await new Promise((accept, reject) => {
         const {gltfLoader} = useLoaders();
         gltfLoader.load(u, accept, function onprogress() { }, reject);
