@@ -42,7 +42,7 @@
           "args": [[30, 100, 255], 0.001]
         },
         "bloom": {
-          "strength": 0.1,
+          "strength": 0.2,
           "radius": 0.5,
           "threshold": 0.8
         }
